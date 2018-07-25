@@ -1,0 +1,82 @@
+﻿using semantics ProgSynthAdding.Semantics;
+using learners ProgSynthAdding.WitnessFunctions;
+
+language Addition;
+
+@complete feature double Score = ProgSynthAdding.RankingScore;
+
+int y := x | A;
+ 
+int A := Add(y, y);
+ 
+@start int S := A | Ly; 
+ 
+int Ly := let y: int = x in A;
+
+@input int x;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
